@@ -7,13 +7,11 @@ This project is a Student Record Management System implemented in C++.
 - [Overview](#overview)
 - [Project Goals](#project-goals)
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
+
 - [Usage](#usage)
 - [Future Goals](#future-goals)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -29,23 +27,6 @@ The primary goal of this project is to create a Student Record Management System
 - Adding new student data
 - Viewing student information using Student ID
 
-## Features
-
-- List of features and functionalities available in your Student Record Management System.
-
-## Getting Started
-
-### Prerequisites
-
-- Mention any prerequisites or dependencies required to run your project.
-
-### Installation
-
-- Provide step-by-step instructions on how to install and set up your project.
-
-## Usage
-
-- Explain how to use your Student Record Management System, including any relevant code examples or screenshots.
 
 ## Future Goals
 
