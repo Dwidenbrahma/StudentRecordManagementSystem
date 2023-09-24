@@ -47,7 +47,6 @@ class Student{
 
         string searchID = id; // The ID you want to find
         string line;
-        cout << "Get line";
 
         while (getline(inFile, line)) {
             size_t idPos = line.find(searchID);
