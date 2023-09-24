@@ -77,9 +77,11 @@ int id, age;
 string seacrhId, firstName, lastName, fatherName, gender, address;
 
 int choice;
-// bool run = true;
+
    
 
+
+while(true){
 
 
     cout << "Enter Your Choice :\n ";
@@ -88,45 +90,55 @@ int choice;
 
 
 
+
+
     switch (choice)
         {
             case 1:
-                cout << "Enter ID: ";
-                cin >> id;
-                cin.ignore();
-                cout << "Enter  Age: ";
-                cin >> age;
-                cin.ignore();
-                cout << "Enter First Name: ";
-                cin >> firstName;
-                cin.ignore();
-                cout << "Enter Last Name: ";
-                cin >> lastName;
-                cin.ignore();
-                cout << "Enter Father Name: ";
-                cin >> fatherName;
-                cin.ignore();
-                cout<<"Enter Gender: ";
-                cin>>gender;
-                cin.ignore();
-                cout << "Enter Address: ";
-                cin >> address;
-                cin.ignore();
-                object.addNewStudent(id, age, firstName, lastName, fatherName, gender, address);
+            system("cls");
+            cout << "Enter ID: ";
+            cin >> id;
+            cin.ignore();
+            cout << "Enter  Age: ";
+            cin >> age;
+            cin.ignore();
+            cout << "Enter First Name: ";
+            cin >> firstName;
+            cin.ignore();
+            cout << "Enter Last Name: ";
+            cin >> lastName;
+            cin.ignore();
+            cout << "Enter Father Name: ";
+            cin >> fatherName;
+            cin.ignore();
+            cout << "Enter Gender: ";
+            cin >> gender;
+            cin.ignore();
+            cout << "Enter Address: ";
+            cin >> address;
+            cin.ignore();
+            object.addNewStudent(id, age, firstName, lastName, fatherName, gender, address);
 
             break;
         case 2:
-                cout << "Enter Student ID: ";
-                cin >> id;
-                object.getDataByID(seacrhId);
-        // case 3:
-        //         run == false;
-                
-        default:
+            system("cls");
+            cout << "Enter Student ID: ";
+            cin >> id;
+            object.getDataByID(seacrhId);
             break;
+        case 3:
+                return 0;
+
+        default:
+                cout << "Please Enter correct Choice! ";
+                break;
     }
 
-
+    cout << "---------Press Enter Key to Continue---------";
+    cin.ignore();
+    cin.get();
+    system("cls");
+}
 
     
 
